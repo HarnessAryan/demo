@@ -1,0 +1,20 @@
+envs:
+- type: public
+  env: dev
+  proxies: 
+    - my-proxy-v1
+    - my-proxy-v2
+  services:
+    - my-backend-service
+  databases:
+    - my-db
+
+- type: private
+  env: prod
+  proxies:
+    - my-secure-proxy-v1
+    - my-secure-proxy-v2
+  services:
+    - my-private-service
+  databases:
+    - my-private-db
