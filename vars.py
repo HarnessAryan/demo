@@ -1,0 +1,5 @@
+APIGEE_ORGANIZATION = "my-org"
+APIGEE_ENVIRONMENT = "test"
+APIGEE_API_PROXY_NAME = "my-proxy"
+APIGEE_API_PROXY_REVISION = "1"
+APIGEE_API_PROXY_BUNDLE_PATH = "harness-templates/projects/apigee/apigee-proxy"
